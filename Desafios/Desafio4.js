@@ -10,7 +10,7 @@ class ConverteArray {
 
 
                     for (let i = 0; i < lista.length; i++) {
-                        obj[i] = lista[i];
+                        obj[lista[i][0]] = lista[i][1];
                     }
                     return obj;
 

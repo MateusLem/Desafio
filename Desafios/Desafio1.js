@@ -13,6 +13,7 @@ class CriaArray {
                         array.push(element);
                     }
 
+                    return array;
                     
                 } else {
                     throw new RangeError("Frequency must be greater than zero");

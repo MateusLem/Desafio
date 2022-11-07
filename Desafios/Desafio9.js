@@ -55,4 +55,4 @@ class SeparaArray {
 
 
 const array9 = new SeparaArray();
-console.log(array9.separa([1, 2, 3, 4, 5], 4));
+console.log(array9.separa([1, 2, 3, 4, 5], 2));
